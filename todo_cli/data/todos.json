@@ -8,5 +8,10 @@
     "id": 1772381685354,
     "title": "役所に行く",
     "completed": false
+  },
+  {
+    "id": 1773479384934,
+    "title": "うどんを買う",
+    "completed": true
   }
 ]

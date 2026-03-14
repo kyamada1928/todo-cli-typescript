@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug CLI (ts-node/esm)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/todo_cli",
+      "runtimeArgs": ["--loader", "ts-node/esm"],
+      "args": ["src/index.ts", "done", "1"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

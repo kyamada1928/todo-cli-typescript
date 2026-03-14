@@ -10,7 +10,8 @@
   "dependencies": {
     "@types/node": "^25.3.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "description": "CLI todo app built with TypeScript and JSON persistence"
   },
   "scripts": {
     "dev": "node --loader ts-node/esm src/index.ts"
